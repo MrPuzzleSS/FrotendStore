@@ -21,7 +21,25 @@
         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
     </nav>
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg" alt="Imange del producto" class="camisa__imagen">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo saepe exercitationem at aut perspiciatis atque voluptate, laudantium beatae quasi, perferendis quisquam laborum officia deleniti modi nihil ullam sit ut.</p>
+                
+                <form class="formulario">
+                    <select name="talla" id="talla" class="formulario__campo">
+                        <option value="" disabled selected>-- Seleccionar Talla --</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                    </select>
+                    <input class="formulario__campo" type="number" name="canitdad" id="cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <p class="footer__texto">Front End Store - Todos los derechos Reservados 2025.</p>
